@@ -7,4 +7,4 @@ const whatsapSchema = mongoose.Schema({
      recieved: Boolean,
 })
 
-export default mongoose.model('messageContent', whatsapSchema)
+export default mongoose.model('messagecontents', whatsapSchema)
